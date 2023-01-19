@@ -1,0 +1,317 @@
+./CarlaUE4.sh --opengl
+sudo apt install python3-pip
+
+
+sudo add-apt-repository universe
+sudo apt-get update
+sudo apt install python3-pip
+
+cd /media/ubuntu/Windows/un/workspace
+sudo apt install python3-virtualenv
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+sudo apt-get install python3.8
+
+#virtualenv MyEnv
+sudo apt install python3.8-distutils
+sudo apt install python3.8-venv python3.8-dev
+python3.8 -m venv MyEnv
+source /media/ubuntu/Windows/un/MyEnv/bin/activate
+pip3.8 install wheel
+python3.8 -m pip install pygame
+python3.8 -m pip install numpy
+
+#python3.8 -m pip install
+
+python3.8 -m pip install pygame-1.9.4-cp37-cp37m-manylinux1_x86_64.whl 
+
+
+
+$ python3.8 -m venv env
+python3.8 -m pip install
+virtualenv
+sudo apt install python3.8-virtualenv
+venv 
+venv -p python3.8 myE
+sudo venv -p python3.8 myE
+
+pip3 install --user pygame numpy
+./CarlaUE4.sh --opengl
+ls
+cd PythonAPI/
+cd examples/
+ls
+python
+python3 manual_control.py
+cd ..
+cd examples/
+pyth
+python3
+sudo apt install python3.8
+./CarlaUE4.sh --opengl
+git clone https://github.com/lssac7778/Off-road-Benchmark.git
+docker pull lssac7778/carla
+./ImportAssets.sh 
+./arla_root/Util/BuildTools/ExportMaps.sh
+./carla_root/Util/BuildTools/ExportMaps.sh
+./Import
+ls
+./ImportAssets.sh 
+docker 
+sudo apt install docker.io 
+python3.8
+python3 manual_control.py
+cd ..
+ls
+cd examples/
+python3.8 manual_control.py
+python
+python3
+python3.8
+python3.8 manual_control.py
+python3.8
+python3.8 manual_control.py
+python3.8 automatic_control.py 
+python3.8 manual_control.py
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 20
+sudo apt install python3.8
+sudo add-apt-repository
+
+sudo apt install python3.8-pip
+sudo apt install python3.8-distutils
+pip install --user pygame numpy 
+pip install wheel
+pip3.8 install wheel
+ls
+cd Downloads/
+ls
+python3.8 -m pip install pygame-1.9.4-cp37-cp37m-manylinux1_x86_64.whl 
+pip install pygame==2.0.0.dev6
+cd ..
+sudo apt install python3.8-venv python3.8-dev
+$ python3.8 -m venv env
+python3.8 -m pip install
+virtualenv
+sudo apt install python3.8-virtualenv
+venv 
+venv -p python3.8 myE
+sudo venv -p python3.8 myE
+sudo apt-get install python3.8-virtualenv
+python3.8 -m pip install pygame
+python3.8 -m pip install numpy
+
+https://mavs-documentation.readthedocs.io/en/latest/MavsBuildInstructions/
+
+
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/lib/"
+export PATH="$PATH:/usr/local/lib"
+
+
+
+
+export PYTHONPATH=$PYTHONPATH:"$/media/ubuntu/Windows/un/CARLA_0.9.6-dirty/PythonAPI/carla/dist/carla-0.9.6-py3.6-linux-x86_64.egg $(ls $/media/ubuntu/Windows/un/CARLA_0.9.6-dirty/PythonAPI/carla/dist/carla-0.9.6-py3.6-linux-x86_64.egg | grep py3.)"
+export PYTHONPATH=$PYTHONPATH:$/media/ubuntu/Windows/un/CARLA_0.9.6-dirty/PythonAPI/carla
+
+
+
+
+Collecting open3d
+  Downloading open3d-0.16.0-cp38-cp38-manylinux_2_27_x86_64.whl (422.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 422.5/422.5 MB 13.0 MB/s eta 0:00:00
+Collecting pandas>=1.0
+  Downloading pandas-1.5.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.2/12.2 MB 32.5 MB/s eta 0:00:00
+Collecting pyyaml>=5.4.1
+  Downloading PyYAML-6.0-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (701 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 701.2/701.2 KB 44.9 MB/s eta 0:00:00
+Collecting ipywidgets>=7.6.0
+  Downloading ipywidgets-8.0.4-py3-none-any.whl (137 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 137.8/137.8 KB 47.4 MB/s eta 0:00:00
+Collecting pillow>=8.2.0
+  Downloading Pillow-9.4.0-cp38-cp38-manylinux_2_28_x86_64.whl (3.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 37.8 MB/s eta 0:00:00
+Collecting configargparse
+  Downloading ConfigArgParse-1.5.3-py3-none-any.whl (20 kB)
+Collecting addict
+  Downloading addict-2.4.0-py3-none-any.whl (3.8 kB)
+Collecting matplotlib>=3
+  Downloading matplotlib-3.6.3-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (9.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.4/9.4 MB 34.3 MB/s eta 0:00:00
+Collecting tqdm
+  Downloading tqdm-4.64.1-py2.py3-none-any.whl (78 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.5/78.5 KB 11.3 MB/s eta 0:00:00
+Collecting pyquaternion
+  Downloading pyquaternion-0.9.9-py3-none-any.whl (14 kB)
+Collecting nbformat==5.5.0
+  Downloading nbformat-5.5.0-py3-none-any.whl (75 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 75.3/75.3 KB 10.2 MB/s eta 0:00:00
+Collecting scikit-learn>=0.21
+  Downloading scikit_learn-1.2.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (9.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.7/9.7 MB 35.3 MB/s eta 0:00:00
+Collecting dash>=2.6.0
+  Downloading dash-2.7.1-py3-none-any.whl (9.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.9/9.9 MB 36.3 MB/s eta 0:00:00
+Collecting numpy>1.15
+  Downloading numpy-1.24.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.3/17.3 MB 33.6 MB/s eta 0:00:00
+Collecting jupyter_core
+  Downloading jupyter_core-5.1.3-py3-none-any.whl (93 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.5/93.5 KB 10.7 MB/s eta 0:00:00
+Collecting jsonschema>=2.6
+  Downloading jsonschema-4.17.3-py3-none-any.whl (90 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 90.4/90.4 KB 49.2 MB/s eta 0:00:00
+Collecting traitlets>=5.1
+  Downloading traitlets-5.8.1-py3-none-any.whl (116 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 116.8/116.8 KB 11.3 MB/s eta 0:00:00
+Collecting fastjsonschema
+  Downloading fastjsonschema-2.16.2-py3-none-any.whl (22 kB)
+Collecting dash-html-components==2.0.0
+  Downloading dash_html_components-2.0.0-py3-none-any.whl (4.1 kB)
+Collecting dash-table==5.0.0
+  Downloading dash_table-5.0.0-py3-none-any.whl (3.9 kB)
+Collecting Flask>=1.0.4
+  Downloading Flask-2.2.2-py3-none-any.whl (101 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 101.5/101.5 KB 111.1 MB/s eta 0:00:00
+Collecting plotly>=5.0.0
+  Downloading plotly-5.12.0-py2.py3-none-any.whl (15.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.2/15.2 MB 35.9 MB/s eta 0:00:00
+Collecting dash-core-components==2.0.0
+  Downloading dash_core_components-2.0.0-py3-none-any.whl (3.8 kB)
+Collecting ipykernel>=4.5.1
+  Downloading ipykernel-6.20.2-py3-none-any.whl (149 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 149.2/149.2 KB 24.0 MB/s eta 0:00:00
+Collecting ipython>=6.1.0
+  Downloading ipython-8.8.0-py3-none-any.whl (775 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 775.8/775.8 KB 28.6 MB/s eta 0:00:00
+Collecting jupyterlab-widgets~=3.0
+  Downloading jupyterlab_widgets-3.0.5-py3-none-any.whl (384 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 384.3/384.3 KB 41.4 MB/s eta 0:00:00
+Collecting widgetsnbextension~=4.0
+  Downloading widgetsnbextension-4.0.5-py3-none-any.whl (2.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 39.4 MB/s eta 0:00:00
+Collecting pyparsing>=2.2.1
+  Downloading pyparsing-3.0.9-py3-none-any.whl (98 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.3/98.3 KB 13.3 MB/s eta 0:00:00
+Collecting kiwisolver>=1.0.1
+  Downloading kiwisolver-1.4.4-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 36.3 MB/s eta 0:00:00
+Collecting packaging>=20.0
+  Downloading packaging-23.0-py3-none-any.whl (42 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.7/42.7 KB 5.7 MB/s eta 0:00:00
+Collecting contourpy>=1.0.1
+  Downloading contourpy-1.0.7-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (300 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 300.0/300.0 KB 53.6 MB/s eta 0:00:00
+Collecting python-dateutil>=2.7
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.7/247.7 KB 23.6 MB/s eta 0:00:00
+Collecting cycler>=0.10
+  Downloading cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting fonttools>=4.22.0
+  Downloading fonttools-4.38.0-py3-none-any.whl (965 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 965.4/965.4 KB 51.1 MB/s eta 0:00:00
+Collecting pytz>=2020.1
+  Downloading pytz-2022.7.1-py2.py3-none-any.whl (499 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 499.4/499.4 KB 33.6 MB/s eta 0:00:00
+Collecting threadpoolctl>=2.0.0
+  Downloading threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+Collecting joblib>=1.1.1
+  Downloading joblib-1.2.0-py3-none-any.whl (297 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 298.0/298.0 KB 61.6 MB/s eta 0:00:00
+Collecting scipy>=1.3.2
+  Downloading scipy-1.10.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 34.5/34.5 MB 31.0 MB/s eta 0:00:00
+Collecting Jinja2>=3.0
+  Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.1/133.1 KB 107.6 MB/s eta 0:00:00
+Collecting click>=8.0
+  Downloading click-8.1.3-py3-none-any.whl (96 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 96.6/96.6 KB 52.9 MB/s eta 0:00:00
+Collecting Werkzeug>=2.2.2
+  Downloading Werkzeug-2.2.2-py3-none-any.whl (232 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 232.7/232.7 KB 52.9 MB/s eta 0:00:00
+Collecting itsdangerous>=2.0
+  Downloading itsdangerous-2.1.2-py3-none-any.whl (15 kB)
+Collecting importlib-metadata>=3.6.0
+  Downloading importlib_metadata-6.0.0-py3-none-any.whl (21 kB)
+Collecting nest-asyncio
+  Downloading nest_asyncio-1.5.6-py3-none-any.whl (5.2 kB)
+Collecting jupyter-client>=6.1.12
+  Downloading jupyter_client-7.4.9-py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.5/133.5 KB 113.7 MB/s eta 0:00:00
+Collecting comm>=0.1.1
+  Downloading comm-0.1.2-py3-none-any.whl (6.5 kB)
+Collecting debugpy>=1.0
+  Downloading debugpy-1.6.5-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 38.7 MB/s eta 0:00:00
+Collecting matplotlib-inline>=0.1
+  Downloading matplotlib_inline-0.1.6-py3-none-any.whl (9.4 kB)
+Collecting psutil
+  Downloading psutil-5.9.4-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (280 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 280.2/280.2 KB 40.7 MB/s eta 0:00:00
+Collecting tornado>=6.1
+  Downloading tornado-6.2-cp37-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (423 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 424.0/424.0 KB 31.5 MB/s eta 0:00:00
+Collecting pyzmq>=17
+  Downloading pyzmq-25.0.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 34.5 MB/s eta 0:00:00
+Collecting pexpect>4.3
+  Downloading pexpect-4.8.0-py2.py3-none-any.whl (59 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.0/59.0 KB 9.1 MB/s eta 0:00:00
+Collecting pygments>=2.4.0
+  Downloading Pygments-2.14.0-py3-none-any.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 47.7 MB/s eta 0:00:00
+Collecting stack-data
+  Downloading stack_data-0.6.2-py3-none-any.whl (24 kB)
+Collecting backcall
+  Downloading backcall-0.2.0-py2.py3-none-any.whl (11 kB)
+Collecting prompt-toolkit<3.1.0,>=3.0.11
+  Downloading prompt_toolkit-3.0.36-py3-none-any.whl (386 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 386.4/386.4 KB 22.8 MB/s eta 0:00:00
+Collecting jedi>=0.16
+  Downloading jedi-0.18.2-py2.py3-none-any.whl (1.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 35.7 MB/s eta 0:00:00
+Collecting pickleshare
+  Downloading pickleshare-0.7.5-py2.py3-none-any.whl (6.9 kB)
+Collecting decorator
+  Downloading decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Collecting attrs>=17.4.0
+  Downloading attrs-22.2.0-py3-none-any.whl (60 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.0/60.0 KB 9.1 MB/s eta 0:00:00
+Collecting pkgutil-resolve-name>=1.3.10
+  Downloading pkgutil_resolve_name-1.3.10-py3-none-any.whl (4.7 kB)
+Collecting importlib-resources>=1.4.0
+  Downloading importlib_resources-5.10.2-py3-none-any.whl (34 kB)
+Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0
+  Downloading pyrsistent-0.19.3-py3-none-any.whl (57 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.5/57.5 KB 8.3 MB/s eta 0:00:00
+Collecting tenacity>=6.2.0
+  Downloading tenacity-8.1.0-py3-none-any.whl (23 kB)
+Collecting six>=1.5
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting platformdirs>=2.5
+  Downloading platformdirs-2.6.2-py3-none-any.whl (14 kB)
+Collecting zipp>=0.5
+  Downloading zipp-3.11.0-py3-none-any.whl (6.6 kB)
+Collecting parso<0.9.0,>=0.8.0
+  Downloading parso-0.8.3-py2.py3-none-any.whl (100 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100.8/100.8 KB 13.9 MB/s eta 0:00:00
+Collecting MarkupSafe>=2.0
+  Downloading MarkupSafe-2.1.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Collecting entrypoints
+  Downloading entrypoints-0.4-py3-none-any.whl (5.3 kB)
+Collecting ptyprocess>=0.5
+  Downloading ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+Collecting wcwidth
+  Downloading wcwidth-0.2.6-py2.py3-none-any.whl (29 kB)
+Collecting executing>=1.2.0
+  Downloading executing-1.2.0-py2.py3-none-any.whl (24 kB)
+Collecting asttokens>=2.1.0
+  Downloading asttokens-2.2.1-py2.py3-none-any.whl (26 kB)
+Collecting pure-eval
+  Downloading pure_eval-0.2.2-py3-none-any.whl (11 kB)
+Installing collected packages: wcwidth, pytz, pure-eval, ptyprocess, pickleshare, fastjsonschema, executing, dash-table, dash-html-components, dash-core-components, backcall, addict, zipp, widgetsnbextension, traitlets, tqdm, tornado, threadpoolctl, tenacity, six, pyzmq, pyyaml, pyrsistent, pyparsing, pygments, psutil, prompt-toolkit, platformdirs, pkgutil-resolve-name, pillow, pexpect, parso, packaging, numpy, nest-asyncio, MarkupSafe, kiwisolver, jupyterlab-widgets, joblib, itsdangerous, fonttools, entrypoints, decorator, debugpy, cycler, configargparse, click, attrs, Werkzeug, scipy, python-dateutil, pyquaternion, plotly, matplotlib-inline, jupyter_core, Jinja2, jedi, importlib-resources, importlib-metadata, contourpy, comm, asttokens, stack-data, scikit-learn, pandas, matplotlib, jupyter-client, jsonschema, Flask, nbformat, ipython, dash, ipykernel, ipywidgets, open3d
+
+Successfully installed Flask-2.2.2 Jinja2-3.1.2 MarkupSafe-2.1.2 Werkzeug-2.2.2 addict-2.4.0 asttokens-2.2.1 attrs-22.2.0 backcall-0.2.0 click-8.1.3 comm-0.1.2 configargparse-1.5.3 contourpy-1.0.7 cycler-0.11.0 dash-2.7.1 dash-core-components-2.0.0 dash-html-components-2.0.0 dash-table-5.0.0 debugpy-1.6.5 decorator-5.1.1 entrypoints-0.4 executing-1.2.0 fastjsonschema-2.16.2 fonttools-4.38.0 importlib-metadata-6.0.0 importlib-resources-5.10.2 ipykernel-6.20.2 ipython-8.8.0 ipywidgets-8.0.4 itsdangerous-2.1.2 jedi-0.18.2 joblib-1.2.0 jsonschema-4.17.3 jupyter-client-7.4.9 jupyter_core-5.1.3 jupyterlab-widgets-3.0.5 kiwisolver-1.4.4 matplotlib-3.6.3 matplotlib-inline-0.1.6 nbformat-5.5.0 nest-asyncio-1.5.6 numpy-1.24.1 open3d-0.16.0 packaging-23.0 pandas-1.5.2 parso-0.8.3 pexpect-4.8.0 pickleshare-0.7.5 pillow-9.4.0 pkgutil-resolve-name-1.3.10 platformdirs-2.6.2 plotly-5.12.0 prompt-toolkit-3.0.36 psutil-5.9.4 ptyprocess-0.7.0 pure-eval-0.2.2 pygments-2.14.0 pyparsing-3.0.9 pyquaternion-0.9.9 pyrsistent-0.19.3 python-dateutil-2.8.2 pytz-2022.7.1 pyyaml-6.0 pyzmq-25.0.0 scikit-learn-1.2.0 scipy-1.10.0 six-1.16.0 stack-data-0.6.2 tenacity-8.1.0 threadpoolctl-3.1.0 tornado-6.2 tqdm-4.64.1 traitlets-5.8.1 wcwidth-0.2.6 widgetsnbextension-4.0.5 zipp-3.11.0
+
+
+
