@@ -48,3 +48,25 @@ https://github.com/url-kaist/patchwork-plusplus
 https://github.com/LimHyungTae/patchwork
 
 https://github.com/szenergy/awesome-lidar
+
+
+indoor:
+
+https://github.com/20chix/Autonomus_Indoor_Drone
+
+
+https://github.com/rafaelmaeuer/Autonomous-Indoor-Drone
+
+https://github.com/kimtj5521/AMR_simulator
+
+https://github.com/Dhruv2012/Autonomous-Farm-Robot
+
+https://github.com/reiniscimurs/DRL-robot-navigation
+
+https://github.com/aaryapatel007/home_service_bot_ros
+
+https://github.com/rodriguesrenato/warehouse_robot_simulation
+
+https://github.com/adipandas/indoor_bot
+
+
