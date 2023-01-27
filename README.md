@@ -77,3 +77,5 @@ http://ronny.rest/tutorials/module/pointclouds_01/point_cloud_birdseye/
 
 https://github.com/collector-m/lidar_projection
 
+http://ronny.rest/blog/post_2017_03_26_lidar_birds_eye/
+
