@@ -69,4 +69,11 @@ https://github.com/rodriguesrenato/warehouse_robot_simulation
 
 https://github.com/adipandas/indoor_bot
 
+lidar_main:
+
+http://ronny.rest/blog/
+
+http://ronny.rest/tutorials/module/pointclouds_01/point_cloud_birdseye/
+
+https://github.com/collector-m/lidar_projection
 
