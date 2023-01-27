@@ -79,3 +79,8 @@ https://github.com/collector-m/lidar_projection
 
 http://ronny.rest/blog/post_2017_03_26_lidar_birds_eye/
 
+
+https://scipy-lectures.org/packages/3d_plotting/index.html
+
+https://earnold.me/post/mayavilidar/#:~:text=Mayavi%20has%20a%20much%20smaller,continuous%20and%20asynchronous%20data%20stream.
+
