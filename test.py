@@ -1,47 +1,46 @@
+import matplotlib.pyplot as plt
 import numpy as np
-from matplotlib import cm
+from test_2 import *
+#import pcl
+from show import *
+# from tool import *
 import open3d as o3d
-VIRIDIS = np.array(cm.get_cmap('plasma').colors)
-VID_RANGE = np.linspace(0.0, 255.0, VIRIDIS.shape[0])
-LABEL_COLORS = np.array([
-    (255, 255, 255), # None
-    (70, 70, 70),    # Building
-    (100, 40, 40),   # Fences
-    (55, 90, 80),    # Other
-    (220, 20, 60),   # Pedestrian
-    (153, 153, 153), # Pole
-    (157, 234, 50),  # RoadLines
-    (128, 64, 128),  # Road
-    (244, 35, 232),  # Sidewalk
-    (107, 142, 35),  # Vegetation
-    (0, 0, 142),     # Vehicle
-    (102, 102, 156), # Wall
-    (220, 220, 0),   # TrafficSign
-    (70, 130, 180),  # Sky
-    (81, 0, 81),     # Ground
-    (150, 100, 100), # Bridge
-    (230, 150, 140), # RailTrack
-    (180, 165, 180), # GuardRail
-    (250, 170, 30),  # TrafficLight
-    (110, 190, 160), # Static
-    (170, 120, 50),  # Dynamic
-    (45, 60, 150),   # Water
-    (145, 170, 100), # Terrain
-])  # normalize each channel [0-1] since is what Open3D uses
 
-#print(VIRIDIS,VIRIDIS.shape)
-#print(VID_RANGE)
+#points=load_pc_from_bin('bin/83.bin')
 
-def visu_pcd(points_l,hud_w=640,hud_h=480,lidar_r=50):
-    #lidar_data=np.array(points_l[:,:2])
-    lidar_data=points_l[:,:2]
-    lidar_data*=min(hud_h,hud_w)/(2.0*lidar_r)
-    lidar_data+=(0.5*hud_h,0.5*hud_w)
-    lidar_data=np.fabs(lidar_data)
-    lidar_data=lidar_data.astype(np.int32)
-    lidar_data=np.reshape(lidar_data,(-1,2))
-    lidar_img_size=(hud_h,hud_w,3)
-    lidar_img=np.zeros((lidar_img_size),dtype=np.uint8)
-    lidar_img[tuple(lidar_data.T)]=(255,0,255)
-    return lidar_img
+#full_cloud2.pcd
+#bunny.pcd
+url='C:/Users/DIWAKAR/Downloads/lidar_projection-master/lidar_projection-master/full_cloud2.pcd'
+pcd = o3d.io.read_point_cloud(url)
+out_arr = np.asarray(pcd.points)
+
+	#print(out_arr.shape)
+	#i=np.ones(127088)
+	#i*=255
+	#print(i,i.shape)
+	#out_f=np.c_[out_arr,i]
+print("output array from input list : ", out_arr,out_arr.shape)
+lidar = out_arr
+
+HRES = 0.35         # horizontal resolution (assuming 20Hz setting)
+VRES = 0.4          # vertical res
+VFOV = (-24.9, 2.0) # Field of view (-ve, +ve) along vertical axis
+Y_FUDGE = 5         # y fudge factor for velodyne HDL 64E
+viz_mayavi(lidar, vals="height")
+
+#lidar_to_2d_front_view(lidar, v_res=VRES, h_res=HRES, v_fov=VFOV, val="depth",saveto="pic/lidar_depth1.png", y_fudge=Y_FUDGE)
+
+#lidar_to_2d_front_view(lidar, v_res=VRES, h_res=HRES, v_fov=VFOV, val="height",saveto="pic/lidar_height1.png", y_fudge=Y_FUDGE)
+
+#lidar_to_2d_front_view(lidar, v_res=VRES, h_res=HRES, v_fov=VFOV,val="reflectance", saveto="pic/lidar_reflectance1.png",y_fudge=Y_FUDGE)
+
+#im=birds_eye_point_cloud(lidar, side_range=(-10, 10), fwd_range=(-10, 10), res=0.1, saveto="C:/Users/DIWAKAR/Downloads/lidar_projection-master/lidar_projection-master/pic/lidar_pil_02.png")
+
+# im = point_cloud_to_panorama(lidar,v_res=0.42, h_res=0.35,v_fov=(-24.9, 2.0),y_fudge=3,d_range=(0,100))
+# plt.imshow(im,cmap='spectral')
+# plt.savefig("pic/spec1.png")
+# plt.show()
+
+# plt.imshow(im, cmap="Spectral", vmin=0, vmax=255)
+# plt.show()
 

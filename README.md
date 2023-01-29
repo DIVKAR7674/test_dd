@@ -1,86 +1,36 @@
-# test_dd
+# lidar_projection
+3d lidar point cloud 2d image projection in python. 
 
-mail:https://drive.google.com/file/d/1VhbUDDPYcWdv-L_bxn8YA1sGNAfX7p4_/view?usp=share_link
+Requirement:
+1. numpy
+2. matplotlib
+3. [python-pcl](https://github.com/strawlab/python-pcl)
+4. (Opt.) ros, for real-time display
 
-simu:https://drive.google.com/file/d/1rfZrouN46pVU36DdoKGDXIA2eaPVFhnA/view?usp=share_link
-sim1:https://drive.google.com/file/d/1TPigvj75FPrBe9L-5kO_78Z3ckYZq8OD/view?usp=sharing
+File:
+1. `tool.py`: methods to load `.pcd` data or kitti `.bin` point cloud data
+2. `show.py`: methods to perform projection 
 
-lidar:https://stackoverflow.com/questions/60560878/how-can-i-output-the-open3d-geometry-pointcloud-as-pcd-file
+Running:
+Not well coded yet, just for test.
+```shell
+#for ros velodyne points real time projection
+python ros_realtiem.py
+```
+```shell
+#for static point cloud data projection
+#test.py should be modified
+python test.py
+```
 
-https://stackoverflow.com/questions/59477832/issue-with-rgb-color-issue-in-open3d
+Resutls:
+Front View & Panorama
+![gray](pic/arround.png)
+![depth](pic/lidar_depth.png)
+![height](pic/lidar_height.png)
+![intensity](pic/lidar_reflectance.png)
 
-https://github.com/isl-org/Open3D/issues/614
+Bird View	
+![gray_bv](pic/lidar_pil_01.png)
 
-http://www.open3d.org/docs/release/python_api/open3d.geometry.PointCloud.html#open3d.geometry.PointCloud.colors
-
-https://snyk.io/advisor/python/open3d/functions/open3d.PointCloud
-
-lidar:
-
-https://github.com/tahirdme/LIDAR-Height-Extractor
-
-https://github.com/anshulpaigwar/GndNet
-
-https://github.com/kcg2015/lidar_ground_plane_and_obstacles_detections
-
-https://github.com/darrenjkt/TRAVEL
-
-https://github.com/lavishsaluja/ground-detection
-
-https://github.com/Kartik17/Point-Cloud-Ground-Segmentation
-
-https://github.com/HuangCongQing/linefit_ground_segmentation_details
-
-https://github.com/wangx1996/Cascaded-Lidar-Ground-Segmentation
-
-https://github.com/chrise96/3D_Ground_Segmentation
-
-https://github.com/wangx1996/Fast-Ground-Segmentation-Based-on-JPC
-
-https://github.com/KennyWGH/efficient_online_segmentation
-
-https://github.com/HuangCongQing/plane_fit_ground_filter
-
-https://github.com/url-kaist/Ground-Segmentation-Benchmark
-
-https://github.com/url-kaist/patchwork-plusplus
-
-https://github.com/LimHyungTae/patchwork
-
-https://github.com/szenergy/awesome-lidar
-
-
-indoor:
-
-https://github.com/20chix/Autonomus_Indoor_Drone
-
-
-https://github.com/rafaelmaeuer/Autonomous-Indoor-Drone
-
-https://github.com/kimtj5521/AMR_simulator
-
-https://github.com/Dhruv2012/Autonomous-Farm-Robot
-
-https://github.com/reiniscimurs/DRL-robot-navigation
-
-https://github.com/aaryapatel007/home_service_bot_ros
-
-https://github.com/rodriguesrenato/warehouse_robot_simulation
-
-https://github.com/adipandas/indoor_bot
-
-lidar_main:
-
-http://ronny.rest/blog/
-
-http://ronny.rest/tutorials/module/pointclouds_01/point_cloud_birdseye/
-
-https://github.com/collector-m/lidar_projection
-
-http://ronny.rest/blog/post_2017_03_26_lidar_birds_eye/
-
-
-https://scipy-lectures.org/packages/3d_plotting/index.html
-
-https://earnold.me/post/mayavilidar/#:~:text=Mayavi%20has%20a%20much%20smaller,continuous%20and%20asynchronous%20data%20stream.
-
+Thanks [http://ronny.rest/blog](http://ronny.rest/blog)
