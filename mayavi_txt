@@ -148,3 +148,32 @@ t_r', 'gray', 'gray_r', 'hot', 'hot_r', 'hsv', 'hsv_r', 'inferno', 'inferno_r', 
 an_r', 'pink', 'pink_r', 'plasma', 'plasma_r', 'prism', 'prism_r', 'rainbow', 'rainbow_r', 'seismic', 'seismic_r', 'spring', 'spring_r', 'summer', 'summer_r', 'tab10
 ', 'tab10_r', 'tab20', 'tab20_r', 'tab20b', 'tab20b_r', 'tab20c', 'tab20c_r', 'terrain', 'terrain_r', 'turbo', 'turbo_r', 'twilight', 'twilight_r', 'twilight_shifted
 ', 'twilight_shifted_r', 'viridis', 'viridis_r', 'winter', 'winter_r'
+
+
+
+
+
+links:
+
+https://stackoverflow.com/questions/17106315/failed-to-load-platform-plugin-xcb-while-launching-qt5-app-on-linux-without
+
+https://forum.qt.io/topic/93247/qt-qpa-plugin-could-not-load-the-qt-platform-plugin-xcb-in-even-though-it-was-found/19
+
+https://github.com/NVlabs/instant-ngp/discussions/300
+
+https://github.com/opencv/opencv-python/issues/46
+
+https://askubuntu.com/questions/1310286/qt-qpa-plugin-could-not-load-the-qt-platform-plugin-xcb-in-even-though-it
+https://stackoverflow.com/questions/46449850/how-to-fix-the-error-qobjectmovetothread-in-opencv-in-python/63350799#63350799
+
+https://forum.qt.io/topic/132897/qt-qpa-plugin-could-not-load-the-qt-platform-plugin-xcb-in-even-though-it-was-found/8
+
+https://github.com/matplotlib/matplotlib/issues/19360
+
+https://stackoverflow.com/questions/33051790/could-not-find-or-load-the-qt-platform-plugin-xcb
+
+
+https://adioshun.gitbooks.io/pcl_snippet/content/3D-Point-cloud-to-2D-Bird-eye-view.html
+
+work: https://stackoverflow.com/questions/59478962/how-to-convert-a-grayscale-image-to-heatmap-image-with-python-opencv
+
