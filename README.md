@@ -34,3 +34,5 @@ Bird View
 ![gray_bv](pic/lidar_pil_01.png)
 
 Thanks [http://ronny.rest/blog](http://ronny.rest/blog)
+
+test_log link:https://drive.google.com/drive/folders/1imuuUwIVRAMQsS1Er3oXhK-9TNbfLYYk?usp=sharing
